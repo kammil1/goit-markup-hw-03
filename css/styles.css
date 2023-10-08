@@ -283,16 +283,17 @@ padding: 0 15px;
     align-items: center;
     flex-shrink: 0;
     justify-content: space-between;
+    padding: 24px 0;
     
   
 }
 
 
 .top-list{
-display: inline-flex;
+display: flex;
 align-items: flex-start;
 gap: 40px;
-padding: 24px 0;
+
 
 }
 
