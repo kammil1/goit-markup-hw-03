@@ -131,6 +131,8 @@ padding: 24px 0;
     min-width: 169px;
     height: 56px;
     border: none;
+    margin-top: 48px;
+    margin-left: 496px;
 }
 
 .main-button:hover,
@@ -358,6 +360,7 @@ gap: 40px;
     column-gap: 24px;
     row-gap: 48px;
     width: calc(100% - 48px)/3;
+    padding-top: 72px;
     
 }
 
