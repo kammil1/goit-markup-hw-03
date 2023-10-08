@@ -208,7 +208,8 @@ padding: 24px 0;
 
 
 .section-three{
-  background-color: var(--color-cloud);  
+  background-color: var(--color-cloud);
+  padding: 120px 0;
 }
 
 
