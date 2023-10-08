@@ -30,7 +30,7 @@ body{
 
 .link{
     text-decoration: none;
-    padding: 24px, 0;
+    padding: 24px 0;
 }
 
 .logo{
@@ -56,6 +56,7 @@ color: var(--color-navy-blue);
 .list-nav{
 color: var(--color-navy-blue);
 font-weight: 500;
+
 }
 
 .list-nav:hover,
