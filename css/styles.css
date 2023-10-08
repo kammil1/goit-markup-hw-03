@@ -133,8 +133,7 @@ padding: 24px 0;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-top: 120px;
-    padding-bottom: 72px;
+   margin-bottom: 72px;
 }
 
 
@@ -185,7 +184,10 @@ padding: 24px 0;
      clip: rect(0 0 0 0);
      overflow: hidden;
  }
-}
+
+ .section-two{
+    padding-bottom: 120px;
+ }
 
 .section-two-text {
     color: var(color --color-slate);
