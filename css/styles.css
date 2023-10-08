@@ -58,8 +58,6 @@ color: var(--color-navy-blue);
 }
 
 .list-card{
-    column-gap: 24px;
-    row-gap: 48px;
     width: calc((100% - 48px) / 3)
 }
 
@@ -354,6 +352,7 @@ gap: 40px;
 .porfolio-list{
     flex-wrap: wrap;
     display: flex;
+    column-gap: 48px;
     width: calc(100% - 48px)/3;
     
 }
