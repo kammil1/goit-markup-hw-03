@@ -55,7 +55,6 @@ color: var(--color-navy-blue);
 .list-nav{
 color: var(--color-navy-blue);
 font-weight: 500;
-padding: 24px 0;
 }
 
 .list-nav:hover,
@@ -291,6 +290,7 @@ padding: 0 15px;
 display: flex;
 align-items: flex-start;
 gap: 40px;
+padding: 24PX, 0;
 
 }
 
