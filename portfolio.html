@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,39 +18,41 @@
   </head>
   <body>
     <header class="header">
-      <nav>
-        <a class="link logo" href="./index.html"
-          >Web<span class="logo-studio">Studio</span></a
-        >
-        <ul class="list">
-          <li><a href="./index.html" class="link list-nav">Studio</a></li>
-          <li>
-            <a href="./portfolio.html" class="link list-nav">Portfolio</a>
-          </li>
-          <li><a href="" class="link list-nav">Contacts</a></li>
-        </ul>
-      </nav>
+      <div class="container top-line">
+        <nav class="navigation">
+          <a class="link logo" href="./index.html"
+            >Web<span class="logo-studio">Studio</span></a
+          >
+          <ul class="list top-list">
+            <li><a href="./index.html" class="link list-nav">Studio</a></li>
+            <li>
+              <a href="./portfolio.html" class="link list-nav">Portfolio</a>
+            </li>
+            <li><a href="" class="link list-nav">Contacts</a></li>
+          </ul>
+        </nav>
 
-      <address class="address">
-        <ul class="list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="link address-link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="link address-link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+        <address class="address">
+          <ul class="list address-list">
+            <li>
+              <a href="mailto:info@devstudio.com" class="link address-link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="link address-link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <main>
       <section>
-        <h1>Nagłówek niewidoczny</h1>
-        <ul class="list">
+        <h1 class="visually-hidden">Nagłówek niewidoczny</h1>
+        <ul class="list button-list">
           <li><button type="button" class="filter-button">All</button></li>
           <li><button type="button" class="filter-button">Web Site</button></li>
           <li><button type="button" class="filter-button">App</button></li>
@@ -56,7 +62,7 @@
           </li>
         </ul>
 
-        <ul class="list">
+        <ul class="list porfolio-list">
           <li class="list-card">
             <a href="" class="link"
               ><img
