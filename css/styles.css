@@ -198,6 +198,11 @@ padding: 24px 0;
     display: flex;
     gap:24px;
     padding-bottom: 120px;
+
+}
+
+.section-two-element{
+    width: calc((100% - 48px) / 3)
 }
 
 
