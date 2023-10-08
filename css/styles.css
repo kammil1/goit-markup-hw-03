@@ -30,6 +30,8 @@ body{
 
 .link{
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo{
