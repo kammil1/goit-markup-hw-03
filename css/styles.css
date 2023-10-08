@@ -167,7 +167,7 @@ padding: 24px 0;
 }
 
 .section-one-element{
-    width: calc((100% - -72px)/4);
+    width: calc((100% - 72px) / 4);
 }
 
 
