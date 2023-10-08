@@ -147,6 +147,7 @@ padding: 24px 0;
     letter-spacing: 0.02em;
     padding-top: 120px;
     padding-top: 32px;
+    margin-bottom: 8px;
     
 }
 
@@ -164,6 +165,10 @@ padding: 24px 0;
 .section-one-list{
     display: flex;
     gap:24px;
+}
+
+.section-one-element{
+    width: calc((100%-72%))/4;
 }
 
 
