@@ -56,6 +56,8 @@ color: var(--color-navy-blue);
 .list-nav{
 color: var(--color-navy-blue);
 font-weight: 500;
+padding: 24px 0;
+
 
 }
 
