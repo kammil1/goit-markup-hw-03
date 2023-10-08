@@ -83,7 +83,8 @@ padding: 24px 0;
 
 
 .main{
-    background-color: var(--color-navy-blue);    
+    background-color: var(--color-navy-blue);
+    padding: 188px 0;
 }
 
 
@@ -96,7 +97,7 @@ padding: 24px 0;
     line-height: 1.07;
     letter-spacing: 0.02em;
     margin: 0 auto;
-    padding: 188px 0;
+    
 
 }
 
