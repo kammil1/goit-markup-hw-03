@@ -271,9 +271,9 @@ padding: 24px 0;
 
 .button-list {
     
-    display: inline-flex;
+    display: flex;
     gap: 24px;
-    padding-left: 427px;
+    
 }
     
 
