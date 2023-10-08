@@ -54,7 +54,14 @@ color: var(--color-iris);
 color: var(--color-navy-blue);
 }
 .footer-studio{
-    color: var(--color-cloud);
+    color: var(--color-cloud);\
+}
+
+.list-card{
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    width: calc((100% - 48px) / 3)
 }
 
 .list-nav{
