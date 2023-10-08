@@ -246,7 +246,7 @@ padding: 24px 0;
     background-color: var(--color-navy-blue);
     padding-top: 101.5px;
     padding-left: 156px;
-    padding-bottom: 100px;
+    padding-bottom: 100px 0;
 }
 
 .footer-text{
