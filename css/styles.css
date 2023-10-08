@@ -210,6 +210,7 @@ padding: 24px 0;
 .section-three{
   background-color: var(--color-cloud);
   padding: 120px 0;
+  text-align: center;
 }
 
 .section-three-employee{
@@ -235,6 +236,10 @@ padding: 24px 0;
     display: flex;
     gap:24px;
     padding-bottom: 120px;
+}
+
+.section-three-text{
+    text-align: center;
 }
 
 .footer{
