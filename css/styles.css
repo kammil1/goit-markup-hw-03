@@ -39,7 +39,7 @@ body{
 .link{
     text-decoration: none;
     display: inline-block;
-    margin-bottom: 16px;
+    
 }
 
 .logo{
@@ -212,7 +212,7 @@ padding: 24px 0;
 .section-two-list{
     display: flex;
     gap:24px;
-    padding-bottom: 120px;
+    
 
 }
 
@@ -250,7 +250,7 @@ padding: 24px 0;
 .section-three-list{
     display: flex;
     gap:24px;
-    padding-bottom: 120px;
+    
 }
 
 .section-three-text{
@@ -276,7 +276,7 @@ padding: 24px 0;
     
     display: flex;
     gap: 24px;
-    margin-bottom: 72px;
+    
     
 }
     
